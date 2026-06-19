@@ -1,1 +1,66 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOV60Kt2Bg4JqcLG/D6YL8D",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HamiduI-Islam/Programming-In-Python/blob/main/Lab2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CoeBtqPVJ5Xx",
+        "outputId": "46090281-8c72-45b4-c6d5-e0d6a97e8518"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter value for a: 4\n",
+            "Enter value for b: 5\n",
+            "\n",
+            "Before swapping: a = 4, b = 5\n",
+            "After swapping:  a = 5, b = 4\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "a = input(\"Enter value for a: \")\n",
+        "b = input(\"Enter value for b: \")\n",
+        "\n",
+        "print(f\"\\nBefore swapping: a = {a}, b = {b}\")\n",
+        "\n",
+        "# Swapping the values\n",
+        "a, b = b, a\n",
+        "\n",
+        "print(f\"After swapping:  a = {a}, b = {b}\")"
+      ]
+    }
+  ]
+}
